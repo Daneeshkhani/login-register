@@ -63,7 +63,7 @@ function login() {
     console.log(authenticatedUser);
     
   if (authenticatedUser) {
-    alert("Login successful! Redirecting...");
+    alert("Login successful!");
     window.location.href = "dashboard.html";
   } else {
     alert("Invalid email or password!");
